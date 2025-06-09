@@ -1,0 +1,31 @@
+# Виртуальные окружения
+.venv/
+env/
+venv/
+
+# Базы данных
+*.db
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE и системные файлы
+.idea/
+.vscode/
+.DS_Store
+
+# Логи
+*.log
+
+# Игнорируем всё внутри notebooks, кроме структуры
+notebooks/*
+!notebooks/.gitkeep
+!notebooks/face_detection.ipynb
+
+!*.gitkeep
+
